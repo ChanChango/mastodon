@@ -25,7 +25,7 @@ module Mastodon
     end
 
     def build_metadata
-      ['whippyEdition',ENV.fetch('MASTODON_VERSION_METADATA', nil)].compact_blank.join('.')
+      ['whippyEdition.adastra234',ENV.fetch('MASTODON_VERSION_METADATA', nil)].compact_blank.join('.')
     end
 
     def to_a
